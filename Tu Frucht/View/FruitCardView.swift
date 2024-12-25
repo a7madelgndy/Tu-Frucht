@@ -33,7 +33,7 @@ struct FruitCardView: View {
                     .foregroundColor(.white)
                     .padding(.horizontal , 15)
                 //BUTTON : START
-                
+                StartButtonView()
             }//: VASTACK
 
         }//: ZStack
