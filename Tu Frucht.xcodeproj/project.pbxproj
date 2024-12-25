@@ -13,6 +13,7 @@
 		15EB8A552D1C718A0084EE18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EB8A542D1C718A0084EE18 /* Preview Assets.xcassets */; };
 		15EB8A5E2D1C99D70084EE18 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EB8A5D2D1C99D60084EE18 /* FruitCardView.swift */; };
 		15EB8A602D1CA01D0084EE18 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EB8A5F2D1CA01D0084EE18 /* StartButtonView.swift */; };
+		15EB8A622D1CB46B0084EE18 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EB8A612D1CB46B0084EE18 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		15EB8A542D1C718A0084EE18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15EB8A5D2D1C99D60084EE18 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		15EB8A5F2D1CA01D0084EE18 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		15EB8A612D1CB46B0084EE18 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				15EB8A4D2D1C71890084EE18 /* Tu_FruchtApp.swift */,
 				15EB8A4F2D1C71890084EE18 /* ContentView.swift */,
+				15EB8A612D1CB46B0084EE18 /* OnboardingView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				15EB8A5E2D1C99D70084EE18 /* FruitCardView.swift in Sources */,
 				15EB8A602D1CA01D0084EE18 /* StartButtonView.swift in Sources */,
 				15EB8A502D1C71890084EE18 /* ContentView.swift in Sources */,
+				15EB8A622D1CB46B0084EE18 /* OnboardingView.swift in Sources */,
 				15EB8A4E2D1C71890084EE18 /* Tu_FruchtApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
