@@ -19,8 +19,9 @@ struct ContentView: View {
                         .padding(.vertical, 4)
                 }
             }//::List
+            .navigationTitle("Our Fruits")
+
         }//:NavigationView
-        .navigationTitle("Our Fruits")
       
             
     }

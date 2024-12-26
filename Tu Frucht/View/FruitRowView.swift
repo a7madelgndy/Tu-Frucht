@@ -25,7 +25,7 @@ struct FruitRowView: View {
                 )
                 .cornerRadius(15)
             //VStack Fro title and headline
-            VStack(alignment: .leading ,  spacing: 5) {
+            VStack(alignment: .leading ) {
                 Text(fruit.title)
                     .font(.title2)
                     .fontWeight(.bold)
