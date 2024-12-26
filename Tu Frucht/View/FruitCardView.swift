@@ -10,26 +10,27 @@ import SwiftUI
 struct FruitCardView: View {
     //MARK: PROPERTIES
     @State private var isAnimating : Bool = false
+    let fruit: Fruit
     //MARK: BODY
     var body: some View {
         ZStack {
             VStack(spacing: 12) {
                 //FURIT: IMAGE
-                Image("blueberry")
+                Image(fruit.image)
                     .resizable()
                     .scaledToFit()
                     .scaleEffect(isAnimating ? 1 : 0.6)
                     .shadow(color: Color.black.opacity(0.5),radius: 8 ,x: 6 , y : 8)
                 //FURIT: TITLE
 
-                Text("Blueberry")
+                Text(fruit.title)
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .foregroundStyle(.white)
                     .shadow(color: Color.black.opacity(0.15), radius: 8, x: 2 , y : 2)
                     
                 //FURIT: HEADLINE
-                Text("Blueberry are sweet m nutritious and widly  popular fruit all over the World . ")
+                Text(fruit.headline)
                     .frame(maxWidth: 480)
                     .font(.title3)
                     .multilineTextAlignment(.center)
@@ -46,7 +47,8 @@ struct FruitCardView: View {
             }
         })
         .frame(minWidth: 0 , maxWidth: .infinity , minHeight: 0 , maxHeight: .infinity)
-        .background(LinearGradient(colors: [Color("ColorBlueberryLight") , Color("ColorBlueberryDark")], startPoint: .top, endPoint: .bottom))
+        .background(LinearGradient(colors:
+            fruit.gradientColors, startPoint: .top, endPoint: .bottom))
         .cornerRadius(15)
         .padding(.horizontal , 20)
     }
@@ -54,7 +56,7 @@ struct FruitCardView: View {
 //MARK: PREVIEW
 struct FuitCardView_Preview: PreviewProvider {
     static var previews: some View {
-        FruitCardView()
+        FruitCardView(fruit: fruitsData[1])
             .previewLayout(.fixed(width: 320, height: 640))
     }
 }
