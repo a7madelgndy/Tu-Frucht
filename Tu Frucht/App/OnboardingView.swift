@@ -9,7 +9,7 @@ import SwiftUI
 
 struct OnboardingView: View {
     //MARK: -PROPERTIES
-    private let fruits:[Fruit]  = fruitsData
+    let fruits:[Fruit] = fruitsData
     //MARK: -BODY
     var body: some View {
         TabView {
