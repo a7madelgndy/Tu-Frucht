@@ -39,7 +39,7 @@ struct ContentView: View {
             )
 
         }//:NavigationView
-      
+        .navigationViewStyle(StackNavigationViewStyle())
             
     }
 }

@@ -47,6 +47,11 @@ struct SettingView: View {
                         Toggle(isOn: $isOnboarding, label: {
                             Text("Restart".uppercased())
                         })
+                        .padding()
+                        .background(
+                            Color(UIColor.tertiarySystemGroupedBackground)
+                                .clipShape(RoundedRectangle(cornerRadius: 10 ,style: .continuous))
+                        )
                     })
                     //MARK: SECTION 3
                     GroupBox(
