@@ -21,6 +21,7 @@
 		15EB8A722D1DE0C70084EE18 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EB8A712D1DE0C70084EE18 /* FruitHeaderView.swift */; };
 		15EB8A742D1DE6EA0084EE18 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EB8A732D1DE6EA0084EE18 /* SourceLinkView.swift */; };
 		15EB8A782D1F7A110084EE18 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EB8A772D1F7A110084EE18 /* FruitNutrientsView.swift */; };
+		15EB8A7A2D2186ED0084EE18 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EB8A792D2186ED0084EE18 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		15EB8A712D1DE0C70084EE18 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		15EB8A732D1DE6EA0084EE18 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		15EB8A772D1F7A110084EE18 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		15EB8A792D2186ED0084EE18 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				15EB8A4F2D1C71890084EE18 /* ContentView.swift */,
 				15EB8A612D1CB46B0084EE18 /* OnboardingView.swift */,
 				15EB8A6D2D1DD3640084EE18 /* FruitDetailView.swift */,
+				15EB8A792D2186ED0084EE18 /* SettingView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				15EB8A602D1CA01D0084EE18 /* StartButtonView.swift in Sources */,
 				15EB8A6E2D1DD3640084EE18 /* FruitDetailView.swift in Sources */,
 				15EB8A502D1C71890084EE18 /* ContentView.swift in Sources */,
+				15EB8A7A2D2186ED0084EE18 /* SettingView.swift in Sources */,
 				15EB8A722D1DE0C70084EE18 /* FruitHeaderView.swift in Sources */,
 				15EB8A622D1CB46B0084EE18 /* OnboardingView.swift in Sources */,
 				15EB8A652D1DA0440084EE18 /* FruitModel.swift in Sources */,
